@@ -1,0 +1,15 @@
+.ComparisonSlider {
+  height: 100%;
+  border: var(--border-img-width) solid var(--border-color);
+}
+
+.comparison__container {
+  display: flex;
+  height: 80vh;
+  flex-flow: column;
+}
+
+.comparison__text {
+  font-size: 1.5rem;
+  flex: 0 1 auto;
+}

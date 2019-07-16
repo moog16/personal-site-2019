@@ -1,0 +1,14 @@
+.contact-me {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;  
+}
+
+.contact-me button {
+  background-color: var(--highlight-color);
+  fill: var(--dimmer-color);
+}
+
+.contact-me button:hover {
+  background-color: rgba(var(--highlight-color-rgb), 0.85);
+}
