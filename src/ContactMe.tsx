@@ -18,12 +18,15 @@ export function ContactMe() {
 
   const actions = [{
     icon: <Github />,
+    link: 'https://github.com/moog16',
     name: 'Github',
   }, {
     icon: <LinkedIn />,
+    link: 'https://linkedin.com/in/mattgoo',
     name: 'LinkedIn',
   }, {
     icon: <Twitter />,
+    link: 'https://twitter.com/moog16',
     name: 'Twitter',
   }];
 
@@ -48,7 +51,7 @@ export function ContactMe() {
             key={action.name}
             icon={action.icon}
             tooltipTitle={action.name}
-            onClick={toggleOpen}
+            onClick={() => window.open(action.link, '_newtab')}
           />
         ))}
       </SpeedDial>

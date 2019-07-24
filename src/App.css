@@ -63,6 +63,10 @@ body {
     grid-column-start: 2;
     grid-column-end: calc(var(--number-columns) + 2);
   }
+
+  .container__text {
+    text-align: right;
+  }
 }
 
 .container__img {
