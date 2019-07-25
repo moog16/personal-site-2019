@@ -23,6 +23,7 @@ body {
   padding-left: var(--side-padding);
   display: flex;
   align-items: center;
+  max-height: 80px;
 
   border-bottom: 1px solid var(--border-color);
   background: var(--highlight-color);
@@ -30,8 +31,7 @@ body {
 }
 
 .container__header img {
-  width: 10vh;
-  height: 10vh;
+  max-height: 80px;
 }
 
 .container__header h1 {
